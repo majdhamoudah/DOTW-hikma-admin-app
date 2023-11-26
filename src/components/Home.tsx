@@ -69,6 +69,7 @@ const Home = (props: any) => {
       }
       setUsers(response.users)
     })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
 
@@ -187,7 +188,7 @@ const Home = (props: any) => {
         <AppBar position='static' className={classes.header}>
           <div className={classes.headerRow}>
             <Avatar>
-              <img className={classes.icon} src={require("../Images/hikma-logo-no-text.png")} />
+              <img className={classes.icon} src={require("../Images/hikma-logo-no-text.png")} alt="hikam logo" />
             </Avatar>
             <Typography variant="h5" style={{paddingLeft: 20}}>
               Hikma Health Admin
