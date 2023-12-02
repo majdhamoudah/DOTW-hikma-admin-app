@@ -167,7 +167,7 @@ const Home = (props: any) => {
             </IconButton>
           </ListItemIcon>
           <ListItemText
-            primary={user.name.content[Object.keys(user.name.content)[0]]}
+            primary={user.name}
             secondary={user.role}
           />
           <ListItemSecondaryAction>
