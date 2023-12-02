@@ -70,7 +70,7 @@ const AddUser = (props: any) => {
   };
 
   const addUser = async (): Promise<any> => {
-    const response = await fetch(`https://dotw-hikma.azurewebsites.net/admin_api/user`, {
+    const response = await fetch(`https://dotw-hikma.azurewebsites.net/api/admin/user`, {
       method: 'POST',
       headers: {
         Authorization: state.token,

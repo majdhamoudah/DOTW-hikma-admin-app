@@ -77,7 +77,7 @@ const Login = () => {
   };
 
   const remoteLogin = async (): Promise<any> => {
-    const response = await fetch(`https://dotw-hikma.azurewebsites.net/admin_api/login`, {
+    const response = await fetch(`https://dotw-hikma.azurewebsites.net/api/admin/login`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
