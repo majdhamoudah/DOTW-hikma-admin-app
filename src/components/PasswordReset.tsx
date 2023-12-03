@@ -101,7 +101,7 @@ const PasswordReset = (props: any) => {
     <React.Fragment>
       <form className={classes.container} noValidate autoComplete="off">
         <Card className={classes.card}>
-          <CardHeader className={classes.header} title={`Reset Password for ${state.user.name.content[Object.keys(state.user.name.content)[0]]}`} />
+          <CardHeader className={classes.header} title={`Reset Password for ${state.user.name}`} />
           <CardContent>
             <div>
               <TextField
